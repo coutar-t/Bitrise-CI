@@ -1,1 +1,2 @@
 swiftlint.lint_files
+swiftlint.issues
