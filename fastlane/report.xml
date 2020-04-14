@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.008957">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: Switch to ios dependencies lane" time="0.001292">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: cocoapods" time="2.087738">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: Switch to ios test lane" time="0.001205">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: run_tests" time="44.020658">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: Switch to ios codecoverage lane" time="0.024793">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: slather" time="5.150281">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: Switch to ios lint lane" time="0.002131">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="8: swiftlint" time="0.636751">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+coverage_service: html
+workspace: ToDoApp.xcworkspace
+xcodeproj: ToDoApp.xcodeproj
+scheme: ToDoApp
+output_directory: "build/slather-report"
+ignore:
+  - Pods/*
+  - ToDoAppTests/*
+  - Generated/*
