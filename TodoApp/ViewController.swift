@@ -12,7 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var optional: String?
         // Do any additional setup after loading the view.
+
+        optional = "toto"
+
+        let tata = optional!
+
+        print(tata)
     }
 
 
