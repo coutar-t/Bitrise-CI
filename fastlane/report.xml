@@ -5,47 +5,47 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.008957">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.008424">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: Switch to ios dependencies lane" time="0.001292">
+      <testcase classname="fastlane.lanes" name="1: Switch to ios dependencies lane" time="0.001468">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: cocoapods" time="2.087738">
+      <testcase classname="fastlane.lanes" name="2: cocoapods" time="2.585731">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: Switch to ios test lane" time="0.001205">
+      <testcase classname="fastlane.lanes" name="3: Switch to ios test lane" time="0.002011">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: run_tests" time="44.020658">
+      <testcase classname="fastlane.lanes" name="4: run_tests" time="37.166129">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: Switch to ios codecoverage lane" time="0.024793">
+      <testcase classname="fastlane.lanes" name="5: Switch to ios codecoverage lane" time="0.001919">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: slather" time="5.150281">
+      <testcase classname="fastlane.lanes" name="6: slather" time="5.477169">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: Switch to ios lint lane" time="0.002131">
+      <testcase classname="fastlane.lanes" name="7: Switch to ios lint lane" time="0.001708">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: swiftlint" time="0.636751">
+      <testcase classname="fastlane.lanes" name="8: swiftlint" time="0.24281">
         
       </testcase>
     
