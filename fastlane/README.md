@@ -46,6 +46,26 @@ Slather
 fastlane ios ci
 ```
 CI
+### ios fetch_signings
+```
+fastlane ios fetch_signings
+```
+Fetch provisioning and certificates
+### ios archive
+```
+fastlane ios archive
+```
+Archive
+### ios upload
+```
+fastlane ios upload
+```
+upload to testflight
+### ios cd
+```
+fastlane ios cd
+```
+CD
 
 ----
 

@@ -63,4 +63,55 @@ platform :ios do
     codecoverage
     lint
   end
+
+  desc "Fetch provisioning and certificates"
+  lane :fetch_signings do
+    match(
+      type: "appstore",
+      clone_branch_directly: true,
+      readonly: true
+    )
+  end
+
+  desc "Archive"
+  lane :archive do
+    update_code_signing_settings(
+      use_automatic_signing: false,
+      path: "TodoApp.xcodeproj",
+    )
+
+    update_project_team(
+      path: "TodoApp.xcodeproj",
+      teamid: "4965NT4QX9"
+    )
+
+    build_ios_app(
+      scheme: "TodoApp",
+      export_method: "app-store",
+      build_path: "build/archive/build",
+      archive_path: "build/archive/archive",
+      output_directory: "build/",
+      output_name: "app.ipa",
+      export_options: {
+        provisioningProfiles: { 
+          "com.tc.TodoApp" => "match AppStore com.tc.TodoApp",
+        }
+      }
+    )
+  end
+
+  desc "upload to testflight"
+  lane :upload do 
+    upload_to_testflight(
+      skip_waiting_for_build_processing: true,
+    )
+  end
+
+  desc "CD"
+  lane :cd do
+    ci
+    fetch_signings
+    archive
+    upload
+  end
 end
