@@ -104,6 +104,7 @@ platform :ios do
   lane :upload do 
     upload_to_testflight(
       skip_waiting_for_build_processing: true,
+      apple_id: "1510141436"
     )
   end
 
